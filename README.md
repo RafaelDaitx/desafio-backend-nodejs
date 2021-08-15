@@ -1,3 +1,15 @@
+***IMPORTANTE***
+
+Visualização dos resultados:
+
+ - Funções Cadastrar, Editar, apagar, Listar (todos itens), Visualizar (usuário especifíco) e editar implementado e testado com suucesso, 
+via MongoDB e Insomnia para retorno dos testes.
+
+ - Validação de endereço único por cadastro não implementado (não consegui realizar a validação)
+
+
+      
+
 # Desafio Back-end LDS (Node): node.js, mysql/postgres/mongo
 
 #### Objetivo:
@@ -9,15 +21,15 @@ Desenvolver uma API Restful utilizando Node.js.
 - Implementar em Node.js uma API Restful com as funcionalidades abaixo.
 
 - Gerenciar pessoas (nome, telefone, e-mail)
-  - Listar (e filtrar quais pessoas por nome ou e-mail)
-  - Adicionar
-  - Editar
-  - Excluir
-  - a pessoa pode ter nenhum ou muitos endereços, com os campos logragouro, número, bairro, cidade e estado.
+  - Listar (e filtrar quais pessoas por nome ou e-mail)  -  FEITO 
+  - Adicionar -  FEITO
+  - Editar -  FEITO
+  - Excluir -  FEITO
+  - a pessoa pode ter nenhum ou muitos endereços, com os campos logragouro, número, bairro, cidade e estado. - FEITO
   - Um endereço pertence a uma e somente uma pessoa.
 
 - Realizar validação de dados no backend.
-  - Caso o servidor retorne erro, apresentá-lo amigavelmente ao usuário.
+  - Caso o servidor retorne erro, apresentá-lo amigavelmente ao usuário. -  FEITO
 
 - O template do Node.js já está disponível. Basta fazer as configurações necessárias para o projeto.
 
